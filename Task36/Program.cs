@@ -3,6 +3,7 @@ Console.WriteLine("Введите размер массива");
 int size = Convert.ToInt32(Console.ReadLine());
 int[] array = new int[size];
 FillArrayRandomNumbers(array);
+PrintArray(array);
 
 int sum = 0;
 
